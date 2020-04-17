@@ -2,7 +2,8 @@
 // Import all sub styles to the main.scss style! 
 
 
-//Test
-body{
-    background:green
-}
+@import
+    'preset.scss',
+    'typography.scss',
+    'sections/head.scss',
+    'sections/oNas.scss';

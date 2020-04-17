@@ -1,0 +1,30 @@
+.video_container{
+       display: flex;
+      justify-content: center;
+      // position: fixed;
+      height: 100%;
+      width: 100%;
+
+  #video {
+      filter: grayscale(.8);
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+    }
+}
+
+  
+  #titleText{
+    position: absolute;
+    top:75%;
+    left: 40%;
+    right: 10%;
+    h1{
+      font-size: 2.5rem !important;
+      text-transform: uppercase;
+      color: #ffff;
+      font-weight: 700;
+      font-family: 'Roboto', sans-serif;
+  
+    }
+  }

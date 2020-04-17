@@ -1,4 +1,6 @@
 //Style import (sass)
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css' // Import precompiled Bootstrap css
 import './styles/main.scss'
 
 //Java Script import (saparate this section to Views and Logics)
@@ -6,8 +8,12 @@ import './styles/main.scss'
 import {renderSampel} from './javascript_pages/view_sampel'
 //Logics
 import {sampel} from './javascript_logics/sampel';
+
+
+
+//Controller -> Structure of Model and View
 sampel();
-renderSampel();
+// renderSampel();
 
 
 
