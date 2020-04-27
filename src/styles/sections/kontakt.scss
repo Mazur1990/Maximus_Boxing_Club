@@ -1,5 +1,23 @@
 
+
+
 #kontakt{
-    // background: url("./../1.jpg");
-    // background:red;
+    background-image: url('~/images/kontakt/1.jpg');
+    background-size: cover;
+    background-position: center;
+    // background-attachment: fixed;
+    // background:#ff0000;
+    height: 50vh;
+    .container{
+        height: 100%;
+    }
+    .row{
+        height: 100%;
+        align-items: center;
+    }
+    svg{
+        height: 50px;
+        width: 50px;
+        // background-color: red;
+    }
 }

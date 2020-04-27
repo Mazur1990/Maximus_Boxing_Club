@@ -9,7 +9,8 @@ import {renderSampel} from './javascript_pages/view_sampel'
 //Logics
 import {sampel} from './javascript_logics/sampel';
 
-
+//Images
+import image from './images/kontakt/1.jpg'
 
 //Controller -> Structure of Model and View
 sampel();
