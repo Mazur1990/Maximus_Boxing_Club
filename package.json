@@ -1,21 +1,31 @@
 {
-  "name": "maximus",
+  "name": "Maximus_Boxing_Club",
   "version": "1.0.0",
-  "description": "",
+  "description": "*  This pre set contains html, scss and graphic loaders\r     1) In terminal: npm install\r     2) To run development -> npm run dev\r     3) To run production -> npm run prod",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "prod": "parcel build src/index.html"
+    "dev": "parcel ./src/index.html",
+    "prod": "parcel build src/index.html --public-url http://webyou.pl/www/kuczi/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mazur1990/Maximus_Boxing_Club.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mazur1990/Maximus_Boxing_Club/issues"
+  },
+  "homepage": "https://github.com/Mazur1990/Maximus_Boxing_Club#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "parcel-bundler": "1.12.4",
-    "sass": "1.26.3"
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.5"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.5.0",
     "popper.js": "^1.16.1"
