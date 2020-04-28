@@ -4,9 +4,8 @@
 #kontakt{
     background-image: url('~/images/kontakt/1.jpg');
     background-size: cover;
-    background-position: center;
-    // background-attachment: fixed;
-    // background:#ff0000;
+    background-position-y: 20vh;
+    background-attachment: fixed;
     height: 50vh;
     .container{
         height: 100%;
@@ -15,9 +14,16 @@
         height: 100%;
         align-items: center;
     }
-    svg{
-        height: 50px;
-        width: 50px;
-        // background-color: red;
+    .col{
+    
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        font-weight: bold;
+        svg{
+            height: 50px;
+            width: 50px;
+            margin-bottom: 15px;
+        }
     }
 }

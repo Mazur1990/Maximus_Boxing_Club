@@ -5,19 +5,20 @@ import './styles/main.scss'
 
 //Java Script import (saparate this section to Views and Logics)
 //Views
-import {renderSampel} from './javascript_pages/view_sampel'
+import {Head} from './javascript_pages/Head'
+import {Social} from './javascript_pages/Social'
 //Logics
 import {sampel} from './javascript_logics/sampel';
 
 //Images
-import image from './images/kontakt/1.jpg'
+
 
 //Controller -> Structure of Model and View
-sampel();
+
+
+Head();
+Social();
 // renderSampel();
-
-
-
 
 
 
